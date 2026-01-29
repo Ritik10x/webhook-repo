@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>GitHub Events</title>
+  <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
-  <h2>Latest GitHub Events</h2>
-  <ul id="events"></ul>
+
+  <header class="navbar">
+    <h1>🚀 GitHub Webhook Dashboard</h1>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Latest GitHub Events</h2>
+      <ul id="events" class="events-list"></ul>
+    </div>
+  </main>
 
   <script src="/static/script.js"></script>
 </body>
